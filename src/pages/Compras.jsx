@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Container, Row, Col, Card, Alert } from "react-bootstrap";
-import { getSales } from "../utils/api"; // Importamos la función API
+import { getSales } from "../utils/api";
 import "../styles/Compras.css";
 
 const Compras = () => {
