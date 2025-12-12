@@ -1,16 +1,33 @@
-# React + Vite
+# Bazar Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interfaz de usuario para la plataforma de e-commerce "Bazar". Esta aplicación permite a los usuarios buscar productos desde una caja de búsqueda, ver un listado de resultados y acceder al detalle de cada producto de forma rápida y amigable.
 
-Currently, two official plugins are available:
+Este proyecto consume los datos servidos por el repositorio [Bazar_backend](https://github.com/Angel-Ascencio/Bazar_backend).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## DEMO
+https://690c2f9364cd5def364d38bd--bazar-examen.netlify.app/?classId=935bd026-36b4-4e5b-81bd-b64cf17b6123&assignmentId=c34d615e-8970-4217-a87d-735bd68c4543&submissionId=38add25c-2222-56a3-78fd-8535d4f2ceb2
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologías y Herramientas
 
-## Expanding the ESLint configuration
+* **Core:** React.js [Hooks, Context API]
+* **Routing:** React Router DOM
+* **HTTP Client:** Axios (o Fetch)
+* **Empaquetador:** Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Funcionalidades
+
+* **Caja de Búsqueda:** Input controlado que redirige a la vista de resultados.
+* **Resultados de Búsqueda:** Renderizado dinámico de tarjetas de productos (muestra 4 ítems).
+* **Detalle del Producto:** Vista profunda con precio, descripción, imagen en alta calidad y condición del producto.
+* **Diseño Responsivo:** Adaptable a dispositivos móviles y escritorio.
+* **Breadcrumbs:** Navegación por categorías basada en la respuesta del backend.
+
+## Instalación y Ejecución
+
+Sigue estos pasos para levantar el frontend:
+
+  **Instalar dependencias:**
+    ```bash
+    npm install
+    ```
